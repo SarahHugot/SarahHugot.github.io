@@ -1,0 +1,160 @@
+.options_conteneur{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.options {
+  font-family: arial, sans-serif;
+  text-decoration: none;
+  color: #292727;
+  font-size: 13px;
+  margin-left: 1em;
+  margin-top: 1em;
+
+}
+
+.options:hover {
+  text-decoration: underline;
+
+}
+
+.logo_google {
+  display: flex;
+  justify-content: center;
+  margin-top: 7em;
+
+}
+
+.formulaire {
+  display:flex;
+  justify-content: center;
+  margin-top: 2em
+
+}
+
+.barre_rech {
+  margin-bottom: 2em;
+  display:flex;
+  width: 582px;
+  height: 44px;
+  border-radius: 25px;
+  border:1px solid;
+  border-color: #dedede;
+
+}
+
+.barre_rech:hover {
+  box-shadow: 3px 3px 3px #dedede;
+  border:1px solid  #dedede;
+}
+
+.barre_rech {
+  outline: none;
+}
+
+center {
+  display:flex;
+  justify-content: center;
+  width: 571px;
+  height: 58px;
+
+
+}
+
+body{
+  font-family: arial, sans-serif;
+  width: auto;
+  height: auto;
+}
+
+.bouton {
+  width: 153px;
+  height: 36px;
+  margin-left: 0.8em;
+  color: #6c6c6c;
+  border:0;
+  font-size: 14px;
+  text-align: center;
+  cursor:pointer;
+
+}
+
+.bouton:hover {
+  border: 1px solid #cfcfcf;
+  box-shadow: 2px 2px 2px white inset;
+
+}
+
+#actu {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lien_coro {
+  font-size: 14px;
+  color:#1a0dab;
+  text-decoration: none;
+  margin-left: 1em;
+}
+
+.lien_coro:hover {
+  text-decoration: underline;
+}
+
+.logocor {
+  height: 45px;
+  width: 45px;
+}
+
+.end {
+  position: fixed;
+  width: 100%;
+  bottom:0;
+  left:0;
+  background-color: #eeeeee;
+
+}
+
+#pays {
+  border : solid 1px #e5e5e5;
+  color: #5f6368;
+  padding-left: 40px;
+  line-height: 40px;
+  font-size: 14px;
+
+}
+
+.items_g, .item_d {
+  font-size: 14px;
+  text-decoration: none;
+  color:#5f6368;
+  text-align: center;
+
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.foot_nav *{
+  padding-left: 20px;
+  margin: 0;
+  display: inline-block;
+  line-height: 40px;
+
+}
+
+.item_d:hover, .items_g:hover {
+  text-decoration: underline;
+}
+
+.foot_nav {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
